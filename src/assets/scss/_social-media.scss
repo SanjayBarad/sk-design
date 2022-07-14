@@ -1,0 +1,37 @@
+.social_media_section{
+    position: fixed;
+    left: 50px;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: 100%;
+    z-index: 999;
+}
+.social_media_nav{
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    .item{
+        display: block;
+        margin-bottom: 50px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    .link{
+        display: block;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        color: $site_color_white;
+        font-size: 20px;
+        font-weight: 500;
+
+        &:hover, &:focus{
+            color: $site_color;
+        }
+    }
+}
