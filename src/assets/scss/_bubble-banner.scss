@@ -1,0 +1,43 @@
+.bubble_banner_cont{
+    width: 100%;
+    padding-left: 100px;
+}
+.bubble_banner_head{
+    width: 100%;
+    margin-bottom: 25px;
+
+    h2{
+        color: #FFFFFF;
+        font-size: 100px;
+        font-weight: 500;
+        line-height: 1.22;
+
+        span{
+            display: inline-block;
+            color: #FF3359;
+        }
+    }
+}
+.bubble_banner_conter_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bubble_banner_conter_col{
+    color: #FFFFFF;
+    margin-right: 126px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    h4{
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 1.22;
+    }
+    p{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.24;
+    }
+}

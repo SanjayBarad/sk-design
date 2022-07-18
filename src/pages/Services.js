@@ -3,16 +3,12 @@ import React from 'react';
 // Template
 import SiteTemplate from '../templates/SiteTemplate';
 
-
-// Components
-import BubbleBanner from '../components/BubbleBanner';
-
-function Home() {
+function Services() {
   return (
     <SiteTemplate>
-      <BubbleBanner/>
+      <h2>Service</h2>
     </SiteTemplate>
   )
 }
 
-export default Home;
+export default Services;
